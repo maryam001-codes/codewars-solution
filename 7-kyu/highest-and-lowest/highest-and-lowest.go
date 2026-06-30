@@ -10,8 +10,8 @@ func HighAndLow(in string) string {
   firstNum, _ := strconv.Atoi(numStr[0])
   max := firstNum
   min := firstNum
-  for _, c := range numStr {
-    num, _ := strconv.Atoi(c)
+  for _, char := range numStr {
+    num, _ := strconv.Atoi(char)
     if num > max {
       max = num
     }
